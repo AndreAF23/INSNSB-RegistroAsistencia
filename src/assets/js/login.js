@@ -65,6 +65,7 @@ ingreso.onclick = function(e) {
         modal2.style.display = "block";
         setTimeout(function() {
             modal2.style.display = "none";
+            window.history.replaceState({}, document.title, window.location.pathname);
             window.location.href="./src/assets/views/inicio.html";
         }, 1500);
 
