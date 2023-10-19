@@ -23,6 +23,7 @@ window.onclick = function(event) {
 }
 
 document.getElementById("enviarCorreo").addEventListener("click",(e)=>{
+    e.preventDefault();
     var nombres = document.getElementById("nombre").value
     var area = document.getElementById("area").value
     e.preventDefault();
@@ -55,6 +56,7 @@ var modal2 = document.getElementById("myModal2")
 
 
 ingreso.onclick = function(e) {
+    e.preventDefault();
     var usuario = document.getElementById("user").value
     var contraseña = document.getElementById("password").value
     e.preventDefault();
