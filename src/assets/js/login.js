@@ -65,6 +65,10 @@ ingreso.onclick = function(e) {
         modal2.style.display = "block";
         setTimeout(function() {
             modal2.style.display = "none";
+             document.getElementById("user").value = "";
+            document.getElementById("password").value = "";
+            document.getElementById("nombre").value = "";
+            document.getElementById("area").value = "";
             window.history.replaceState({}, document.title, window.location.pathname);
             window.location.href="./src/assets/views/inicio.html";
         }, 1500);
