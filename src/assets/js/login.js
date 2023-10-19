@@ -47,7 +47,7 @@ function correo(){
     )
     setTimeout(function() {
         location.reload(true);
-    }, 3000);
+    }, 5000);
 }
 
 
