@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(/src/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+
+img{
+    width: 300px;
+}
+body {
+    background-color: #ededed; /* Cambia el fondo gris al color que desees */
+    font-family: 'Raleway',Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.custom-vertical-center img{
+    
+    background-size: cover; height: 100vh; width: 100%;
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+  }
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Otras propiedades CSS para el contenedor */
+}
+
+.formulario {
+    background-color: #ededed;
+    color: #a5a0b1;
+    border: none;
+   
+    padding: 5px;
+    width: 550px;
+    text-align: left;
+}
+
+.formulario img{
+    width: 150px;
+    margin-bottom: 10px;
+    margin-left: -5px;
+}
+
+.formulario .title {
+    font-size: 22px;
+    margin-bottom: 2px;
+    color: #2b83c2;
+    font-weight: 600;
+}
+
+.formulario .subtitle{
+    font-weight: 500;
+    color: #000;
+    text-align: left;
+}
+
+.formulario-element {
+    margin: 0px 0;
+}
+
+.texto {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 10%;
+}
+
+
+.btn-ingresar{
+    background-color: #2b83c2;
+    color: #fff;
+}
+
+.adicional {
+    margin-top: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+a:hover {
+    text-decoration: underline ;
+}
+
+@media (max-width: 768px) {
+    .formulario {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+/* Estilo para oscurecer el fondo */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5); /* Fondo oscuro con opacidad */
+    z-index: 1;
+}
+
+/* Estilo para el contenido del modal */
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+/* Estilo para el botón de cierre del modal */
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.buttons{
+    margin-left: 10px;
+}
+
+.button-formcorreo{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #3f1616;
+    color: white;
+}
+
+
+.formulario-element{
+    margin-bottom: 16px;
+}
