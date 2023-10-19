@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(/src/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+.header-style {
+    background-color: #d6d3d1;
+    color: black;
+    padding: 10px;
+    height: 160px;
+    justify-content: center;
+    text-align: center;
+}
+
+.separator {
+    border-bottom: 3px solid #a8a29e; /* Grosor y color de la línea de separación */
+}
+
+img{
+    width: 300px;
+}
+body {
+    background-color: #a8a29e; /* Cambia el fondo gris al color que desees */
+    font-family: 'Raleway',Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Otras propiedades CSS para el contenedor */
+}
+
+.formulario {
+    background-color: #800000;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.formulario-element {
+    margin: 10px 0;
+}
+
+.texto {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 10%;
+}
+button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #7f1d1d
+}
+
+
+.adicional {
+    margin-top: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+a:hover {
+    text-decoration: underline ;
+}
+
+@media (max-width: 768px) {
+    .formulario {
+        max-width: 80%;
+    }
+}
+
+
+
+
+
+
+
+/* Estilo para oscurecer el fondo */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5); /* Fondo oscuro con opacidad */
+    z-index: 1;
+}
+
+/* Estilo para el contenido del modal */
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+/* Estilo para el botón de cierre del modal */
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.buttons{
+    margin-left: 10px;
+}
+
+.button-formcorreo{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #3f1616;
+}
