@@ -64,8 +64,8 @@ ingreso.onclick = function(e) {
     if(usuario!="" && contraseña!=""){
         modal2.style.display = "block";
         setTimeout(function() {
-            window.location.href="./src/assets/views/inicio.html";
             modal2.style.display = "none";
+            window.location.href="./src/assets/views/inicio.html";
         }, 1500);
 
     }else{
