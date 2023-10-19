@@ -62,7 +62,7 @@ ingreso.onclick = function(e) {
     if(usuario!="" && contraseña!=""){
         modal2.style.display = "block";
         setTimeout(function() {
-            window.location.href=".../views/inicio.html";
+            window.location.href="../views/inicio.html";
         }, 1500);
 
     }else{
